@@ -23,7 +23,7 @@ header{
   display: inline-block ;
   line-height: 70px ;
 }
-img{
+img.top{
   height: 70px ;
   margin-left: 100% ;
 }
@@ -57,11 +57,270 @@ p.main-visual-text{
   font-size: 20px ;
   color: #FAFAFA ;
 }
+main{
+  background-color: #ECEFF1 ;
+  padding-bottom: 90px ;
+}
 .portfolio{
   width: 920px ;
+  margin: 0 auto ;
 }
-h3.main-hedding{
+
+h3.main-heading{
   padding: 8px ;
   border-bottom: 3px solid #EC715F ;
   border-bottom-width: 3px ;
+  width: 70px ;
+  font-size: 32px ;
+  color: #000000 ;
+  margin-right: auto ;
+  margin-left: auto ;
+  text-align: center ;
+  margin-bottom: 30px ;
+}
+.main-text{
+  font-size: 16px ;
+  color: #000000 ;
+  text-align: center ;
+  margin-bottom: 30px ;
+}
+.image1{
+  background-image: image-url('sketch.jpg') ;
+  background-size: cover ;
+  background-position: center ;
+  width: 300px ;
+  height: 250px ;
+  margin-right: 10px ;
+}
+.image2{
+  background-image: image-url('websuku.png') ;
+  background-size: cover ;
+  background-position: center ;
+  width: 300px ;
+  height: 250px ;
+  margin-right: 10px ;
+}
+.image3{
+  background-image: image-url('write.jpg') ;
+  background-size: cover ;
+  background-position: center ;
+  width: 300px ;
+  height: 250px ;
+}
+.image4{
+  background-image: image-url('webcamp.png') ;
+  background-size: cover ;
+  background-position: center ;
+  width: 300px ;
+  height: 250px ;
+  margin-right: 10px ;
+  margin-top: 10px ;
+}
+.image5{
+  background-image: image-url('talk.jpg') ;
+  background-size: cover ;
+  background-position: center ;
+  width: 300px ;
+  height: 250px ;
+  margin-right: 10px ;
+  margin-top: 10px ;
+}
+.image6{
+  background-image: image-url('webcamp-mother.png') ;
+  background-size: cover ;
+  background-position: center ;
+  width: 300px ;
+  height: 250px ;
+  margin-top: 10px ;
+}
+.images{
+  display: flex;
+  flex-wrap: wrap;
+}
+.feature{
+  width: 980px ;
+  padding-top: 90px ;
+  padding-bottom: 90px ;
+  margin: 0 auto ;
+}
+h3.content2-heading{
+  font-size: 32px ;
+  text-align: center ;
+  color: #000000 ;
+  border-bottom: 3px solid #EC715F
+}
+.content2-text{
+  text-align: center ;
+  margin-top: 30px ;
+  margin-bottom: 30px ;
+  font-size: 16px ;
+  color: #000000 ;
+}
+.boxes{
+  display: flex;
+  flex-direction: row;
+}
+.box1{
+  width: 320px;
+  height: auto;
+}
+h3.box1-heading{
+  size: 20px;
+  color: #000000;
+  text-align: center;
+  margin: 10px 0;
+}
+.box1-text{
+  size: 16px;
+  color: #000000 ;
+}
+.box2{
+  width: 320px;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h3.box2-heading{
+  size: 20px;
+  color: #000000;
+  text-align: center;
+  margin: 10px 0;
+}
+.box2-text{
+  size: 16px;
+  color: #000000;
+}
+.box3{
+  width: 320px;
+  height: auto;
+}
+h3.box3-heading{
+  size: 20px;
+  color: #000000;
+  text-align: center;
+  margin: 10px 0;
+}
+.box3-text{
+  size: 16px;
+  color: #000000;
+}
+.content3{
+  background-color: #ECEFF3;
+  padding: 90px 0;
+}
+.profile{
+  width: 1024px;
+  margin: 0 auto;
+}
+h3.content3-heading{
+  font-size: 32px ;
+  text-align: center ;
+  color: #000000 ;
+  border-bottom: 3px solid #EC715F
+}
+.content3-text{
+  text-align: center ;
+  margin-top: 30px ;
+  margin-bottom: 30px ;
+  font-size: 16px ;
+  color: #000000 ;
+}
+img.image2{
+  width: 250;
+  height: 250;
+  border-radius: 50%;
+}
+.profile-text{
+  display: flex;
+}
+.image-field{
+  width: 512px;
+}
+.info{
+  width: 512px;
+}
+h3.name{
+  size: 20px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.nameinfo{
+  size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+h3.skills{
+  size: 20px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.skillsinfo{
+  size: 16px;
+  color: #000000;
+}
+.contact{
+  width: 800px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+h3.content4-heading{
+  font-size: 32px ;
+  text-align: center ;
+  color: #000000 ;
+  border-bottom: 3px solid #EC715F
+}
+.content4-text{
+  text-align: center ;
+  margin-top: 30px ;
+  margin-bottom: 30px ;
+  font-size: 16px ;
+  color: #000000 ;
+}
+.contact-info{
+  display: flex;
+}
+.mail-tel{
+  width: 400px;
+  margin: 0 auto;
+}
+h3.mail{
+  size: 20px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+h3.tel{
+  size: 20px;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.sns{
+  margin: 0 auto;
+}
+h3.sns-heading{
+  size: 20px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.fab.fa-facebook-f.fa-3x{
+  margin-right: 20px;
+  color: #000000;
+}
+.fab.fa-twitter.fa-3x{
+  margin-right: 20px;
+  color: #000000;
+}
+.fab.fa-instagram.fa-3x{
+  color: #000000;
+}
+footer{
+  background-color: #EC715F;
+  width: 100%;
+  height: 60px;
+}
+.copyright{
+  color: #FAFAFA;
+  size: 16px;
+  line-height: 60px;
+  text-align: center;
 }
